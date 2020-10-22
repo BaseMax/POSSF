@@ -1,0 +1,582 @@
+.discount-title {
+    /*padding: 5% 10%;*/
+    /*background: url(../../assets/image/background-server.png) no-repeat;*/
+    /*background-size: 92%;*/
+    /*background-position: 728% 163%;*/
+}
+
+.festival-logo {
+    width: 125px;
+    height: 115px
+}
+
+header {
+    /*background: linear-gradient(#ff5009, #ff182a);*/
+    background: url("../../assets/image/download.png") no-repeat;
+    background-size: cover;
+    color: white !important;
+}
+
+.header-container {
+    margin-top: 3vh;
+    height: 89%
+}
+
+svg {
+    max-height: 6vh;
+    margin: 5vh auto;
+    display: block;
+}
+
+.section {
+    padding-top: 7%;
+}
+
+.title-line {
+    width: 10%;
+    height: 2px;
+    background-color: #b21f2d;
+    margin-top: 15px;
+}
+
+.main-background {
+    background: url("../../assets/image/bg1.jpg") no-repeat;
+    background-size: cover;
+}
+
+.speakers, .speaker-section {
+    padding-top: 7%;
+}
+
+.speakers-container-info div p{
+    width: 61%
+}
+
+.speakers .card-box {
+    height: 200px;
+    overflow: hidden;
+    padding: 0 25px;
+    box-shadow: 0px 0px 40px 0px grey;
+}
+
+.speakers .card-box-right {
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.speakers .card-box-left {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.speakers .card-box .card-image {
+    height: 80%;
+    width: 20%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.speakers .card-box .card-info {
+    height: 80%;
+    width: 80%;
+}
+
+.register-info {
+    height: 600px !important;
+    background: url("../../assets/image/hall2.png") no-repeat;
+    /*filter: brightness(0.1);*/
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.submit-register-btn {
+
+}
+
+.festival-register {
+    background-color: #0000009c;
+    border-radius: 10px;
+    width: 50%;
+    height: 375px;
+    color: white
+}
+
+.festival-register .input-form {
+    width: 50%;
+}
+
+.time-line {
+    padding-top: 7%;
+}
+
+.time-line-card-container {
+    /*border-right: 2px solid black;*/
+    height: 100px;
+    display: flex;
+    position: relative;
+}
+
+.time-line-card-container:after {
+    /*content: '';*/
+    /*width: 30px;*/
+    /*height: 2px;*/
+    /*position: absolute;*/
+    /*right: -15px;*/
+    /*top: 40px;*/
+    /*background-color: black;*/
+}
+
+.time-line-card {
+    border-radius: 5px;
+    height: 80px;
+}
+
+.time-line-card-timer {
+    width: 12%;
+    height: 80px;
+    background-color: #b21f2d;
+    border-radius: 5px;
+    direction: rtl !important;
+}
+
+.festival-helper-container-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.festival-helper-name {
+    font-size: 1.1rem;
+}
+
+.sponsor-section {
+    height: 300px;
+    margin-top: 7%;
+}
+
+.sponsor-container {
+    height: 220px;
+    padding: 40px 0;
+}
+
+.sponsor-container.border-right-container {
+    border-right: 2px dashed black;
+    padding-right: 45px;
+}
+
+.sponsor-container-img-mid {
+    width: 130px;
+    height: 130px;
+}
+
+.sponsor-container-img-sml {
+    width: 150px;
+    height: 140px
+}
+
+.speakers-container-img {
+    width: 175px;
+    height: 175px;
+    border-radius: 15px;
+    /*overflow: hidden;*/
+}
+
+.workshop-section {
+    padding-top: 4% !important;
+    height: 600px;
+}
+
+.workshop-container-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+
+}
+
+.info-cyber-img {
+    width: 35px;
+    height: 35px;
+}
+
+.repo-link {
+    /*min-width: 140px;*/
+    height: 40px;
+    padding: 6px 8px;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    display: inline-block;
+    font-family: KacstBook;
+    border: 1px solid #b21f2d;
+    cursor: pointer;
+    background-color: rgba(178, 31, 45, 0.1);
+}
+
+.add-repo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    outline: none !important;
+    margin-left: 130px;
+    background-color: transparent;
+    border: none
+}
+
+.section-one {
+    background-size: 35%;
+    background-position: 103% 281%;
+    height: 777px;
+}
+
+.open-source-discount {
+    direction: rtl;
+    font-size: 2.2rem;
+    margin-top: 18%;
+    background: -webkit-linear-gradient(-90deg, #eeee49, #fdfff2);
+    text-shadow: 0px 0px 5.5px #ffff00;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.festival-description {
+    font-size: 1.2rem;
+}
+
+.open-source-disc {
+    font-size: 1.6rem;
+    background: -webkit-linear-gradient(-90deg, #eeee49, #fdfff2);
+    text-shadow: 0px 0px 5px #ff6e00;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.festival-timer {
+    margin-top: 6%;
+}
+
+.festival-date {
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.11);
+    border-radius: 50px;
+}
+
+.festival-timer p {
+    font-size: 2rem;
+}
+
+.festival-timer ul {
+    width: 50%;
+}
+
+.festival-timer li {
+    font-size: 2rem;
+    position: relative;
+    width: 73px;
+    max-width: 73px;
+}
+
+.festival-timer li:not(:last-child):after {
+    content: '';
+    height: 55px;
+    width: 2px;
+    top: 20%;
+    margin-left: 105px;
+    position: absolute;
+    background-color: rgba(198, 198, 198, 0.46);
+    display: flex;
+}
+
+.nav-sticky {
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+.section-one {
+    margin-top: 10%;
+    /*background: url(../../assets/image/Server-pana.png) no-repeat;*/
+    background-size: 35%;
+    background-position: 103% 281%;
+    height: 777px;
+    background-color: white;
+    /*background-position: -8% 947%;*/
+}
+
+.opensource-festival, .opensource-festival-image {
+    padding: 0% 0px;
+}
+
+.opensource-festival h2 {
+    margin-bottom: 10%;
+}
+
+.opensource-service-sircle div {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: 1px solid #1a215a;
+    /*box-shadow: 0px 0px 10px 1px rgba(26, 33, 90, 0.5);*/
+    background-color: #ececec;
+    padding: 15px;
+}
+
+.opensource-services-buttons a:first-child button, .send-email-btn {
+    border: 1px solid transparent;
+    background-color: #b21f2d;
+    color: white;
+    transition: all 500ms;
+}
+
+.opensource-services-buttons a:first-child button:hover, .send-email-btn:hover {
+    box-shadow: 0px 0px 10px 1px #1a215a;
+    transition: all 500ms;
+}
+
+.opensource-services-buttons a:last-child button {
+    background-color: #ececec;
+    border: 1px solid #1a215a;
+    transition: all 500ms;
+}
+
+.opensource-services-buttons a:last-child button:hover {
+    background-color: #1a215a;
+    color: white;
+    transition: all 500ms;
+}
+
+.discount-result {
+    padding: 7% 0px;
+    color: #d2d2d2;
+    background: linear-gradient(-90deg, #1a215a, #030f28);
+    margin-bottom: 6%;
+}
+
+.discount-result li {
+    min-width: 125px;
+    height: 115px;
+    border-radius: 5px;
+    background-color: rgba(50, 57, 172, 0.17);
+    transition: transform 300ms, color 300ms;
+}
+
+.discount-result li:hover {
+    transform: scale(1.1);
+    color: #eded00;
+    transition: all 300ms;
+}
+
+.discount-result h5 {
+    font-size: 1.49rem;
+}
+
+.discount-result li p:first-child {
+    font-size: 1.6rem;
+}
+
+.discount-result li p:last-child {
+    font-size: 1rem;
+}
+
+.discount-lists .discount {
+    width: 99%;
+    height: 465px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0.1px #d1d1d1;
+}
+
+.discount-code {
+    font-family: Serif;
+    font-size: 1.5rem;
+    /*width: 200px;*/
+    border: transparent;
+    padding: 4px 25px;
+    /* height: 50px; */
+    background-color: aliceblue;
+    border-radius: 10px;
+    outline: none;
+}
+
+.discount-code:focus {
+    background-color: rgba(17, 255, 39, 0.48);
+    color: white !important;
+    transition: all 300ms;
+}
+
+.discount-img-container {
+    border-radius: 20px 20px 0 0;
+    height: 160px;
+    position: relative;
+}
+
+.discount-img-container img {
+    height: 100% !important;
+    transition: all 500ms;
+}
+
+.discount-img-container img:hover {
+    transform: scale(1.3) !important;
+    transition: all 500ms;
+}
+
+.list-discount-box {
+    margin-bottom: 55px;
+}
+
+.discount-main-container {
+    height: auto;
+    border-radius: 20px;
+    position: relative;
+    bottom: 20px;
+    /*background-color: #f1f1f1 !important;*/
+    direction: rtl;
+    padding: 20px;
+}
+
+.discount-main-container div.content {
+    height: 150px;
+    overflow: hidden;
+}
+
+.discount-price {
+    border-bottom: 1px solid #c8c8c8;
+    height: 70px;
+}
+
+.discount-main-container div p.title {
+    text-align: right;
+    font-size: 1.1rem;
+    margin: 0.5rem 0 !important;
+}
+
+.discount-main-container div p.content {
+    text-align: right;
+    font-size: 1rem;
+    max-height: 150px;
+}
+
+.section-repo {
+    margin-top: 6%;
+    padding: 6% 0;
+    background: url("../../assets/image/bg1.jpg") no-repeat;
+    background-size: cover;
+}
+
+
+.label-container {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.label-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 3px;
+}
+
+.label-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.label-container input:checked ~ .checkmark {
+    background-color: #1a215a;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.label-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.label-container .checkmark:after {
+    left: 8px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.checkbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.send-email {
+    display: flex;
+    justify-content: center;
+}
+
+.repo-input {
+    width: 25%;
+}
+
+.repo-input img {
+    width: 30px;
+    height: 30px
+}
+
+.row-padding {
+    padding: 0 17%;
+}
+
+footer {
+    background: url("../../assets/image/download.png");
+    background-size: cover;
+    width: 100%;
+    box-shadow: 0px 0px 30px 0.5px #b21f2d;
+}
+
+footer .festival-text {
+    direction: rtl;
+    width: 62%;
+}
+
+/*footer .festival-text div {*/
+/*    width: 75%;*/
+/*}*/
+
+.footer-container {
+    background-color: rgba(0, 0, 0, 0.17);
+    border-radius: 10px;
+    padding: 6% 0;
+}
+
+.festival-supporters {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+}
+
