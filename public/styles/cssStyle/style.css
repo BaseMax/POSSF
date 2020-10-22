@@ -12,13 +12,16 @@
 
 header {
     /*background: linear-gradient(#ff5009, #ff182a);*/
-    background: url("../../assets/image/download.png") no-repeat;
+    background: url("../../assets/image/bg.png") no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     color: white !important;
 }
 
 .header-container {
+    background-color: rgba(0, 0, 0, 0.73);
     margin-top: 3vh;
+    border-radius: 15px;
     height: 89%
 }
 
@@ -261,7 +264,7 @@ svg {
 
 .festival-date {
     height: 50px;
-    background-color: rgba(0, 0, 0, 0.11);
+    background-color: rgba(164, 164, 164, 0.3);
     border-radius: 50px;
 }
 
@@ -552,10 +555,10 @@ svg {
 }
 
 footer {
-    background: url("../../assets/image/download.png");
+    background: url("../../assets/image/darkback.jpg");
     background-size: cover;
     width: 100%;
-    box-shadow: 0px 0px 30px 0.5px #b21f2d;
+    box-shadow: 0px 0px 30px 0.5px black;
 }
 
 footer .festival-text {
@@ -563,20 +566,69 @@ footer .festival-text {
     width: 62%;
 }
 
+.hashtag {
+    color: #b21f2d;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 5px black;
+}
+
 /*footer .festival-text div {*/
 /*    width: 75%;*/
 /*}*/
 
 .footer-container {
-    background-color: rgba(0, 0, 0, 0.17);
-    border-radius: 10px;
-    padding: 6% 0;
+    background-color: rgba(133, 133, 133, 0.29);
+    border-radius: 5px;
+    padding: 4% 0;
 }
 
 .festival-supporters {
     width: 50px;
     height: 50px;
+    border: 1px solid white;
     border-radius: 50px;
-    background-color: white;
+    background-color: transparent;
+    transition: all 200ms;
 }
 
+.festival-supporters.telegram:hover {
+    background-color: #039BE5;
+    border-color: #039BE5;
+    box-shadow: 0px 0px 10px 1px #039BE5;
+    transition: all 200ms;
+}
+
+.festival-supporters.instagram:hover {
+    background: linear-gradient(50deg , #fd642c, #833AB4);
+    border-color: transparent;
+    box-shadow: 0px 0px 10px 1px #833AB4;
+    transition: all 200ms;
+}
+
+.festival-supporters.twitter:hover {
+    background-color: #03A9F4;
+    border-color: #03A9F4;
+    box-shadow: 0px 0px 10px 1px #03A9F4;
+    transition: all 200ms;
+}
+
+.festival-supporters.aparat:hover {
+    background-color: #b20621;
+    border-color: #b20621;
+    box-shadow: 0px 0px 10px 1px #b20621;
+    transition: all 200ms;
+}
+
+.festival-supporters.linkedin:hover {
+    background-color: #0E76A8;
+    border-color: #0E76A8;
+    box-shadow: 0px 0px 10px 1px #0E76A8;
+    transition: all 200ms;
+}
+
+.festival-supporters.github:hover {
+    background-color: #5C6BC0;
+    border-color: #5C6BC0;
+    box-shadow: 0px 0px 10px 1px #5C6BC0;
+    transition: all 200ms;
+}
