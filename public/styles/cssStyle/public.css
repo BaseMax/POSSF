@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "iranSans";
+    src: url("../../assets/fonts/IRANSans.eot");
+    src: url("../../assets/fonts/IRANSans.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/IRANSans.woff2") format("woff2"), url("../../assets/fonts/IRANSans.woff") format("woff"), url("../../assets/fonts/IRANSans.ttf") format("truetype"), url("../../assets/fonts/IRANSans.svg#IRANSans") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "iranSansBold";
+    src: url("../../assets/fonts/IRANSans-Bold.eot");
+    src: url("../../assets/fonts/IRANSans-Bold.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/IRANSans-Bold.woff2") format("woff2"), url("../../assets/fonts/IRANSans-Bold.woff") format("woff"), url("../../assets/fonts/IRANSans-Bold.ttf") format("truetype"), url("../../assets/fonts/IRANSans-Bold.svg#IRANSans-Bold") format("svg");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #ececec !important;
+    font-family: iranSans;
+    -webkit-animation-delay: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes fontfix {
+    from { opacity: 1; }
+    to   { opacity: 1; }
+}
+
+p, ul, h1, h2, h3, h4, h5, h6 {
+    margin: 0px !important;
+}
+
+.base-color {
+    color: #b21f2d;
+}
