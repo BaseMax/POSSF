@@ -1,0 +1,476 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@611;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="public/styles/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="public/styles/bootstrap/css/bootstrap-reboot.css">
+  <link rel="stylesheet" href="public/styles/bootstrap/css/bootstrap-grid.css">
+  <link rel="stylesheet" href="public/styles/cssStyle/style.css">
+  <link rel="stylesheet" href="public/styles/cssStyle/responsive.css">
+  <link rel="stylesheet" href="public/styles/cssStyle/public.css">
+  <link rel="stylesheet" href="public/styles/cssStyle/animaton.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+          integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+          crossorigin="anonymous"></script>
+  <title>جشنواره نرم افزار اوپن سورس فارسی</title>
+</head>
+<body>
+<div>
+  <header class="py-5 h-100">
+    <div class="container header-container">
+      <div class="row py-4">
+        <div class="discount-title text-center col-12 col-sm-12">
+          <img src="public/assets/image/opensource.png" class="mx-auto d-block festival-logo" alt="جشنواره نرم افزار اوپن سورس فارسی">
+          <p class="open-source-discount mt-4 w-100 text-center mb-3">اولین جشنواره نرم افزار اوپن سورس فارسی</p>
+          <div class="w-100 px-3 px-sm-0 mx-auto">
+            <p class="festival-description text-justify" dir="rtl">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و
+              متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای
+              متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت
+              فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص
+              طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
+            </p>
+          </div>
+          <div class="festival-timer">
+            <p class="w-100 text-center mb-4 ">زمان تا شروع جشنواره</p>
+            <span class="festival-date p-2 mx-auto my-3">دوشنبه ۹ آبان ۱۳۹۹</span>
+            <ul class="list-unstyled d-flex justify-content-between my-4 mx-auto d-block">
+              <li class="d-inline-block mx-3">
+                <p id="day_time" class="text-center m-0">0</p>
+                <p class="text-center">روز</p>
+              </li>
+              <li class="d-inline-block mx-3">
+                <p id="hours_time" class="text-center m-0">0</p>
+                <p class="text-center">ساعت</p>
+              </li>
+              <li class="d-inline-block mx-3">
+                <p id="minutes_time" class="text-center m-0">0</p>
+                <p class="text-center">دقیقه</p>
+              </li>
+              <li class="d-inline-block mx-3">
+                <p id="second_time" class="text-center m-0">0</p>
+                <p class="text-center">ثانیه</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+<!--    <section class="section speakers">-->
+<!--      <div class="container">-->
+
+<!--        <h2 class="text-center">ارائه دهندگان</h2>-->
+<!--        <hr class="title-line">-->
+
+<!--        <div class="card-container">-->
+<!--          <div class="card-box card-box-right w-75 mx-auto mt-5 d-flex align-items-center"-->
+<!--               style="background-color: #b21f2d">-->
+<!--            <div class="card-info img-fluid px-5 text-right text-light">-->
+<!--              <h4 class="w-100">جادی میرمیرانی</h4>-->
+<!--              <p class="w-100">هکر خندون، برنامه نویس خوشحال، مدیرسیستم</p>-->
+<!--              <p class="w-100 pt-2">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان-->
+<!--                گرافیک است</p>-->
+<!--            </div>-->
+<!--            <div class="card-image bg-warning"><img class="img-fluid w-100 h-100" src="public/assets/image/jadi.jpg"-->
+<!--                                                    alt=""></div>-->
+<!--          </div>-->
+
+<!--          <div class="card-box card-box-left w-75 mx-auto mt-5 d-flex align-items-center"-->
+<!--               style="background-color: #b21f2d">-->
+<!--            <div class="card-image bg-warning"><img class="img-fluid" style="height: 160px; width: 200px"-->
+<!--                                                    src="public/assets/image/mohammadiye.jpeg" alt=""></div>-->
+<!--            <div class="card-info img-fluid px-4  text-right text-light">-->
+<!--              <h4 class="w-100">سید علی محمدیه</h4>-->
+<!--              <p class="w-100">github مهندس نرم‌افزار و توسعه دهنده شرکت</p>-->
+<!--              <p class="w-100 pt-2">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان-->
+<!--                گرافیک است</p>-->
+<!--            </div>-->
+<!--          </div>-->
+
+<!--          <div class="card-box card-box-right w-75  mx-auto mt-5 d-flex align-items-center"-->
+<!--               style="background-color: #b21f2d">-->
+<!--            <div class="card-info img-fluid px-5 text-right text-light">-->
+<!--              <h4 class="w-100">سید پرهام الوانی</h4>-->
+<!--              <p class="w-100">دانشجوی دکتری، برنامه نویس شرکت اسنپ</p>-->
+<!--              <p class="w-100 pt-2">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان-->
+<!--                گرافیک است</p>-->
+<!--            </div>-->
+<!--            <div class="card-image bg-warning"><img class="img-fluid w-100 h-100" src="public/assets/image/alvani.jpg"-->
+<!--                                                    alt=""></div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </section>-->
+
+
+    <section class="section speaker-section">
+      <div class="container">
+        <h2 class="w-100 text-center">ارائه دهندگان</h2>
+        <hr class="title-line" style="width: 5%">
+
+        <div class="w-100 d-flex justify-content-start my-5 speakers-container">
+          <div class="px-4 speakers-container-info">
+            <h4 class="w-100 text-right">جادی میرمیرانی</h4>
+            <p class="w-100 text-right" style="font-size: 1.16rem">هکر خندون، برنامه نویس خوشحال، مدیرسیستم</p>
+            <div class="w-100 text-right d-flex justify-content-end"><p class="text-right">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+              گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p></div>
+            <ul class="w-100 d-flex justify-content-end list-unstyled mt-2">
+              <a href="#"><li class="info-cyber-img ml-2"><img class="h-100 w-100" src="public/assets/image/github-black.svg" alt=""></li></a>
+              <a href="#"><li class="info-cyber-img ml-2"><img class="h-100 w-100" src="public/assets/image/linkedin.svg" alt=""></li></a>
+              <a href="#"><li class="info-cyber-img ml-2"><img class="h-100 w-100" src="public/assets/image/instagram.svg" alt=""></li></a>
+            </ul>
+          </div>
+          <div class="speakers-container-img"><img class="speakers-container-img" src="public/assets/image/jadi.jpg" alt=""></div>
+        </div>
+
+        <div class="w-100 d-flex justify-content-start my-5 speakers-container">
+          <div class="speakers-container-img"><img class="speakers-container-img" src="public/assets/image/mohammadiye.jpeg" alt=""></div>
+          <div class="px-4 text-justify speakers-container-info">
+            <h4 class="w-100 text-left">سید علی محمدیه</h4>
+            <p class="w-100 text-left" style="font-size: 1.16rem">github مهندس نرم‌افزار و توسعه دهنده شرکت</p>
+            <div class="w-100 text-left d-flex justify-content-start"><p class="text-left">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+              گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p></div>
+            <ul class="w-100 d-flex justify-content-start list-unstyled mt-2">
+              <a href="#"><li class="info-cyber-img mr-2"><img class="h-100 w-100" src="public/assets/image/github-black.svg" alt=""></li></a>
+              <a href="#"><li class="info-cyber-img mr-2"><img class="h-100 w-100" src="public/assets/image/linkedin.svg" alt=""></li></a>
+              <a href="#"><li class="info-cyber-img mr-2"><img class="h-100 w-100" src="public/assets/image/instagram.svg" alt=""></li></a>
+            </ul>
+          </div>
+        </div>
+
+        <div class="w-100 d-flex justify-content-start my-5 speakers-container">
+          <div class="px-4 speakers-container-info">
+            <h4 class="w-100 text-right">سید پرهام الوانی</h4>
+            <p class="w-100 text-right" style="font-size: 1.16rem">دانشجوی دکتری، برنامه نویس شرکت اسنپ</p>
+            <div class="w-100 text-right d-flex justify-content-end"><p class="text-right">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+              گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p></div>
+            <ul class="w-100 d-flex justify-content-end list-unstyled mt-2">
+              <a href="#"><li class="info-cyber-img ml-2"><img class="h-100 w-100" src="public/assets/image/github-black.svg" alt=""></li></a>
+              <a href="#"><li class="info-cyber-img ml-2"><img class="h-100 w-100" src="public/assets/image/linkedin.svg" alt=""></li></a>
+              <a href="#"><li class="info-cyber-img ml-2"><img class="h-100 w-100" src="public/assets/image/instagram.svg" alt=""></li></a>
+            </ul>
+          </div>
+          <div class="speakers-container-img"><img class="speakers-container-img" src="public/assets/image/alvani.jpg" alt=""></div>
+        </div>
+
+        <div class="w-100 d-flex justify-content-start my-5 speakers-container">
+          <div class="speakers-container-img"><img class="speakers-container-img" src="public/assets/image/hatefi.jpg" alt=""></div>
+          <div class="px-4 text-justify speakers-container-info">
+            <h4 class="w-100 text-left">عرفان هاتفی</h4>
+            <p class="w-100 text-left" style="font-size: 1.16rem">لورم ایپسوم متن ساختگی با تولید</p>
+            <div class="w-100 text-left d-flex justify-content-start"><p class="text-left">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+              گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p></div>
+            <ul class="w-100 d-flex justify-content-start list-unstyled mt-2">
+              <a href="#"><li class="info-cyber-img mr-2"><img class="h-100 w-100" src="public/assets/image/github-black.svg" alt=""></li></a>
+              <a href="#"><li class="info-cyber-img mr-2"><img class="h-100 w-100" src="public/assets/image/linkedin.svg" alt=""></li></a>
+              <a href="#"><li class="info-cyber-img mr-2"><img class="h-100 w-100" src="public/assets/image/instagram.svg" alt=""></li></a>
+            </ul>
+          </div>
+        </div>
+
+        <div class="w-100 d-flex justify-content-start my-5 speakers-container">
+          <div class="px-4 speakers-container-info">
+            <h4 class="w-100 text-right">سپهر صناعی <span class="base-color">(مجری)</span></h4>
+            <p class="w-100 text-right" style="font-size: 1.16rem">مهندس نرم‌افزار، هم‌بنیان‌گذار استارت‌آپ نئولایز</p>
+            <div class="w-100 text-right d-flex justify-content-end"><p class="text-right">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+              گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p></div>
+            <ul class="w-100 d-flex justify-content-end list-unstyled mt-2">
+              <a href="#"><li class="info-cyber-img ml-2"><img class="h-100 w-100" src="public/assets/image/github-black.svg" alt=""></li></a>
+              <a href="#"><li class="info-cyber-img ml-2"><img class="h-100 w-100" src="public/assets/image/linkedin.svg" alt=""></li></a>
+              <a href="#"><li class="info-cyber-img ml-2"><img class="h-100 w-100" src="public/assets/image/instagram.svg" alt=""></li></a>
+            </ul>
+          </div>
+          <div class="speakers-container-img"><img class="speakers-container-img" src="public/assets/image/sanaee.jpg" alt=""></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section workshop-section">
+      <div class="container">
+        <h2 class="w-100 text-center title">کارگاه‌ها</h2>
+        <hr class="title-line" style="width: 4%">
+
+        <div class="row my-5">
+          <div class="col-12 col-sm-6 d-flex my-4 my-sm-0">
+            <div class="mr-3 pl-3">
+              <div class="d-flex justify-content-end">
+                <span style="font-size: 1.1rem">سید علی محمدیه </span> <span class="ml-2" style="font-size: 1.1rem; color: #b21f2d">:ارائه دهنده</span>
+              </div>
+              <hr class="my-2">
+              <div class="w-100">
+                <p class="w-100 text-right font-weight-bold">لورم ایپسوم</p>
+                <p class="w-100 text-justify" dir="rtl">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                  گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
+              </div>
+            </div>
+            <img class="workshop-container-img" src="public/assets/image/mohammadiye.jpeg" alt="">
+          </div>
+
+          <div class="col-12 col-sm-6 d-flex my-4 my-sm-0">
+            <div class="mr-3 pl-3">
+              <div class="d-flex justify-content-end">
+                <span style="font-size: 1.1rem">سید پرهام الوانی </span> <span class="ml-2" style="font-size: 1.1rem; color: #b21f2d">:ارائه دهنده</span>
+              </div>
+              <hr class="my-2">
+              <div class="w-100">
+                <p class="w-100 text-right font-weight-bold">لورم ایپسوم</p>
+                <p class="w-100 text-justify" dir="rtl">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                  گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
+              </div>
+            </div>
+            <img class="workshop-container-img" src="public/assets/image/alvani.jpg" alt="">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="register-info section w-100 py-5">
+      <h3 class="w-100 text-center text-light">نحوه ثبت نام در جشنواره</h3>
+      <hr class="title-line" style="width: 6%">
+      <div class="mt-5 mx-auto p-4 festival-register">
+        <h5 class="w-100 text-right">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+          گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </h5>
+        <div class="mx-auto mt-4 input-form">
+          <input name="text" type="text" class="w-100 form-control my-3" style="direction: rtl"
+                 placeholder="نام و نام‌خانوداگی">
+          <input name="text" type="text" class="w-100 form-control my-3" style="direction: rtl"
+                 placeholder="شماره همراه">
+          <div class="w-100 d-flex justify-content-center">
+            <button type="submit" class="btn send-email-btn">ارسال درخواست</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="time-line">
+      <div class="time-line-container container">
+        <h2 class="w-100 text-center">برنامه زمانی جشنواره</h2>
+        <hr class="title-line">
+
+        <div class="mt-5">
+
+          <div class="time-line-card-container w-100 pt-3" style="height: 120px">
+            <div class="time-line-card w-100 bg-light text-right d-flex justify-content-end">
+              <div class="time-line-info py-3 px-4 d-flex align-items-center" dir="rtl">
+                <h5 class="font-weight-bold border-left pl-3">معرفی امکانات جدید گیت‌هاب</h5>
+                <p class="py-1 mx-3">ارائه دهنده: سیدعلی محمدیه</p>
+              </div>
+              <div class="time-line-card-timer d-flex align-items-center flex-sm-row flex-column justify-content-center text-light py-1">
+                <span style="font-size: 1.9rem">5</span>
+                <span class="mr-1" style="font-size: 1.3rem">دقیقه</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="time-line-card-container w-100">
+            <div class="time-line-card w-100 bg-light text-right d-flex justify-content-end">
+              <div class="time-line-info py-3 px-4 d-flex align-items-center" dir="rtl">
+                <h5 class="font-weight-bold border-left pl-3">‫کار با گیت و آموزش عملی</h5>
+                <p class="py-1 mx-3">ارائه دهنده: عرفان هاتفی</p>
+              </div>
+              <div class="time-line-card-timer d-flex align-items-center flex-sm-row flex-column justify-content-center text-light py-1">
+                <span style="font-size: 1.9rem">5</span>
+                <span class="mr-1" style="font-size: 1.3rem">دقیقه</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="time-line-card-container w-100">
+            <div class="time-line-card w-100 bg-light text-right d-flex justify-content-end">
+              <div class="time-line-info py-3 px-4 d-flex align-items-center" dir="rtl">
+                <h5 class="font-weight-bold border-left pl-3">‫‫گفتگو با مهمانان و پرسش مخاطبان‬</h5>
+                <p class="py-1 mx-3 border-left pl-3">ارائه دهنده: ‫صناعى‬ ‫سپهر‬</p>
+                <p class="py-1">مهمانان: سیدعلی محمدیه - سید پرهام الوانی</p>
+              </div>
+              <div class="time-line-card-timer d-flex align-items-center flex-sm-row flex-column justify-content-center text-light py-1">
+                <span style="font-size: 1.9rem">5</span>
+                <span class="mr-1" style="font-size: 1.3rem">دقیقه</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="time-line-card-container w-100">
+            <div class="time-line-card w-100 bg-light text-right d-flex justify-content-end">
+              <div class="time-line-info py-3 px-4 d-flex align-items-center" dir="rtl">
+                <h5 class="font-weight-bold border-left pl-3">مشارکت در پروژه اوپن سورس</h5>
+                <p class="py-1 mx-3">ارائه دهنده: سید پرهام الوانی‬</p>
+              </div>
+              <div class="time-line-card-timer d-flex align-items-center flex-sm-row flex-column justify-content-center text-light py-1">
+                <span style="font-size: 1.9rem">5</span>
+                <span class="mr-1" style="font-size: 1.3rem">دقیقه</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="time-line-card-container w-100">
+            <div class="time-line-card w-100 bg-light text-right d-flex justify-content-end">
+              <div class="time-line-info py-3 px-4 d-flex align-items-center" dir="rtl">
+                <h5 class="font-weight-bold border-left pl-3">نحوه یافت پروژه اوپن سورس مناسب برای مشارکت</h5>
+                <p class="py-1 mx-3">ارائه دهنده: سپهر صناعی</p>
+              </div>
+              <div class="time-line-card-timer d-flex align-items-center flex-sm-row flex-column justify-content-center text-light py-1">
+                <span style="font-size: 1.9rem">5</span>
+                <span class="mr-1" style="font-size: 1.3rem">دقیقه</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sponsor-section container">
+      <div class="row">
+        <div class="col-sm-6">
+          <h2 class="w-100 text-center border-right-padding">اسپانسرها</h2>
+<!--          <hr class="title-line border-right-padding"  style="width: 4%; margin-right: 2px">-->
+          <div class="d-flex sponsor-container justify-content-around w-100 border-right-container">
+            <div class="sponsor-container-img-mid"><img class="img-fluid sponsor-container-img-mid"
+                                                    src="public/assets/image/github.svg"></div>
+            <div class="sponsor-container-img-mid"><img class="img-fluid sponsor-container-img-mid"
+                                                    src="public/assets/image/dologo.svg"></div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <h2 class="w-100 text-center">برگزارکنندگان</h2>
+<!--          <hr class="title-line">-->
+          <div class="d-flex sponsor-container justify-content-around w-100">
+            <div class="sponsor-container-img-mid"><img class="img-fluid sponsor-container-img-mid"
+                                                    src="public/assets/image/kashan-uni.png"></div>
+            <div class="sponsor-container-img-sml"><img class="img-fluid sponsor-container-img-sml"
+                                                    src="public/assets/image/anjoman.png"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section festival-helper-section">
+      <h2 class="w-100 text-center title">یاری‌ دهندگان جشنواره</h2>
+      <hr class="title-line" style="width: 4%">
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-sm-2 col-4 mb-3">
+            <div class="festival-helper-container-image mx-auto my-2"><img class="img-fluid festival-helper-container-image" src="public/assets/image/hall.jpg" alt=""></div>
+            <p class="w-100 text-center festival-helper-name font-weight-bold">علی کاویانی</p>
+            <p class="w-100 text-center">هماهنگی و تدارکات</p>
+          </div>
+
+          <div class="col-sm-2 col-4 mb-3">
+            <div class="festival-helper-container-image mx-auto my-2"><img class="img-fluid festival-helper-container-image" src="public/assets/image/hall.jpg" alt=""></div>
+            <p class="w-100 text-center festival-helper-name font-weight-bold">علی کاویانی</p>
+            <p class="w-100 text-center">هماهنگی و تدارکات</p>
+          </div>
+
+          <div class="col-sm-2 col-4 mb-3">
+            <div class="festival-helper-container-image mx-auto my-2"><img class="img-fluid festival-helper-container-image" src="public/assets/image/hall.jpg" alt=""></div>
+            <p class="w-100 text-center festival-helper-name font-weight-bold">علی کاویانی</p>
+            <p class="w-100 text-center">هماهنگی و تدارکات</p>
+          </div>
+
+          <div class="col-sm-2 col-4">
+            <div class="festival-helper-container-image mx-auto my-2"><img class="img-fluid festival-helper-container-image" src="public/assets/image/hall.jpg" alt=""></div>
+            <p class="w-100 text-center festival-helper-name font-weight-bold">علی کاویانی</p>
+            <p class="w-100 text-center">هماهنگی و تدارکات</p>
+          </div>
+
+          <div class="col-sm-2 col-4">
+            <div class="festival-helper-container-image mx-auto my-2"><img class="img-fluid festival-helper-container-image" src="public/assets/image/hall.jpg" alt=""></div>
+            <p class="w-100 text-center festival-helper-name font-weight-bold">علی کاویانی</p>
+            <p class="w-100 text-center">هماهنگی و تدارکات</p>
+          </div>
+
+          <div class="col-sm-2 col-4">
+            <div class="festival-helper-container-image mx-auto my-2"><img class="img-fluid festival-helper-container-image" src="public/assets/image/hall.jpg" alt=""></div>
+            <p class="w-100 text-center festival-helper-name font-weight-bold">علی کاویانی</p>
+            <p class="w-100 text-center">هماهنگی و تدارکات</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-repo w-100 bg-light">
+      <h1 class="w-100 text-center my-2">ارسال مخزن پروژه متن باز</h1>
+      <p class="w-100 text-center">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+        گرافیک است.</p>
+      <form id="send_email" action="" class="w-100 mx-auto" style="direction: rtl">
+        <div class="w-100 send-email flex-column d-flex justify-content-center align-items-center">
+          <input class="w-25 form-control mx-2 mb-2 mt-4" dir="rtl" id="email"
+                 placeholder="نام و نام‌خانوادگی">
+          <input class="w-25 form-control mx-2 mb-2" dir="rtl" id="email"
+                 placeholder="شماره همراه">
+          <input class="w-25 form-control mx-2 mb-2" dir="rtl" id="email" placeholder="ایمیل">
+          <div class="mb-2 mx-2 d-flex repo-input">
+            <input type="url" style="width: 85%" class="form-control" dir="rtl" id="repository" placeholder="لینک مخزن گیت">
+            <div style="width: 15%">
+              <button id="add_repo" class="add-repo mx-auto" style=""><img class="m-0" src="public/assets/icon/plus.svg"></button>
+            </div>
+          </div>
+          <div id="repo_link" class="w-25">
+          </div>
+          <div class="w-25 my-4 d-flex justify-content-center">
+            <button type="submit" class="btn send-email-btn">ارسال فرم</button>
+          </div>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="">
+    <div class="container " style="padding: 6% 0">
+      <div class="footer-container text-light w-100">
+        <div class="festival-text mx-auto" style="">
+          <div class="d-flex align-items-center justify-content-center flex-column flex-sm-row">
+            <img class="festival-logo ml-4" src="public/assets/image/opensource.png" alt="">
+            <div class="py-3">
+              <h3 class="mb-2 text-center">اولین جشنواره نرم افزار اوپن سورس فارسی</h3>
+              <h3 class="text-center" style="font-family: 'Bitstream Charter'">persian open source software festival</h3>
+            </div>
+          </div>
+        </div>
+        <div class="my-5">
+          <h4 class="w-100 text-center">
+             رویدادهای جشنواره را در شبکه‌های اجتماعی دنبال کنید
+          </h4>
+          <div class="d-flex my-3 justify-content-center">
+            <span class="mx-1 festival-supporters"></span>
+            <span class="mx-1 festival-supporters"></span>
+            <span class="mx-1 festival-supporters"></span>
+            <span class="mx-1 festival-supporters"></span>
+            <span class="mx-1 festival-supporters"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+<!--<script src="index.js"></script>-->
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<!--<script src="src/jQuery-source/jquery-3.5.1.min.js"></script>-->
+<!--<script src="src/jQuery-source/jquery-migrate-1.4.1.min.js"></script>-->
+<!--<script src="src/jQuery-source/jquery-3.5.1.slim.min.js"></script>-->
+<script src="src/timer.js"></script>
+<script src="src/animation.js"></script>
+<script src="src/request-service.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+</html>
