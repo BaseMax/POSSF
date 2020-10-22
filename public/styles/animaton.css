@@ -1,0 +1,67 @@
+/*#service_one, #service_two, #service_three {*/
+/*    position: relative;*/
+/*    top: 50px;*/
+/*    opacity: 0;*/
+/*}*/
+
+/*#service_btn_one, #service_btn_two {*/
+/*    opacity: 0;*/
+/*}*/
+
+/*#discount_result_one, #discount_result_two, #discount_result_three, #discount_result_four {*/
+/*    position: relative;*/
+/*    left: -55px;*/
+/*    opacity: 0;*/
+/*    }*/
+
+/*.discount_box_right {*/
+/*    position: relative;*/
+/*    right: -13%;*/
+/*    opacity: 0;*/
+/*}*/
+
+/*.discount_box_center {*/
+/*    opacity: 0;*/
+/*}*/
+
+/*.discount_box_left {*/
+/*    position: relative;*/
+/*    left: -13%;*/
+/*    opacity: 0;*/
+/*}*/
+
+/*.shadow-animation {*/
+/*    box-shadow: 0px 0px 1px 10px transparent;*/
+/*    animation: btn-anim 3s;*/
+/*    animation-delay: 1500ms;*/
+/*}*/
+
+/*@keyframes btn-anim {*/
+/*    0% {*/
+/*        box-shadow: 0px 0px 1px 0px rgba(64, 26, 90, 0.61);*/
+/*    }*/
+/*    20% {*/
+/*        box-shadow: 0px 0px 1px 30px transparent;*/
+/*    }*/
+/*    40% {*/
+/*        box-shadow: 0px 0px 1px 0px transparent;*/
+/*    }*/
+/*    41% {*/
+/*        box-shadow: 0px 0px 1px 0px rgba(57, 21, 90, 0.61);*/
+/*    }*/
+/*    60% {*/
+/*        box-shadow: 0px 0px 1px 30px transparent;*/
+/*    }*/
+/*    61% {*/
+/*        box-shadow: 0px 0px 1px 0px transparent;*/
+/*    }*/
+/*    80% {*/
+/*        box-shadow: 0px 0px 1px 0px rgba(57, 21, 90, 0.61);*/
+/*    }*/
+/*    99% {*/
+/*        box-shadow: 0px 0px 1px 30px transparent;*/
+/*    }*/
+/*    100% {*/
+/*        box-shadow: 0px 0px 1px 0px transparent;*/
+/*    }*/
+/*}*/
