@@ -19,7 +19,7 @@
         minutes = minutes - (days * 24 * 60) - (hours * 60);
         seconds = seconds - (days * 24 * 60 * 60) - (hours * 60 * 60) - (minutes * 60);
 
-        if (date_now.getDate() >= date_future.getDate()) {
+        if (date_now >= date_future) {
 
             $day.text('0');
             $second.text('0');
