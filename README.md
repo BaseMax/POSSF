@@ -2,6 +2,10 @@
 
 Persian Open Source Software Festival
 
+## Event type
+
+Open-Source Festival similar to **Hacktoberfest** but specifically for Persian users of the world.
+
 ![Persian Open Source Software Festival](screen1.png)
 
 ## Purpose of POSSF
@@ -21,7 +25,7 @@ Please mail me at my gmail address (maxbasecode)
 
 13 November 2020, or 20 November 2020
 
-Group are coordinating. Date can be changed.
+Group are coordinating, Date can be changed.
 
 ---------
 
