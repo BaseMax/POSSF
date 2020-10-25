@@ -17,11 +17,11 @@ Open-Source Festival similar to **Hacktoberfest** but specifically for Persian u
 - Identify people active in open source and in the next step identify quality projects
 - Offer prizes to eligible individuals if they participate in the open source community this month
 
-## Do you agree to speak at this event?
+## Do you agree to speak at POSSF event?
 
 Please mail me at my gmail address (maxbasecode)
 
-## Date
+## Date of POSSF event
 
 13 November 2020, or 20 November 2020
 
