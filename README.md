@@ -6,6 +6,8 @@ Persian Open Source Software Festival
 
 Open-Source Festival similar to **Hacktoberfest** but specifically for Persian users of the world.
 
+> Online (due to COVID 19 disease)
+
 ![Persian Open Source Software Festival](screen1.png)
 
 ## Purpose of POSSF
