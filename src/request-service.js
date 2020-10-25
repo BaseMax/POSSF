@@ -5,7 +5,10 @@
         $repository = $('#repository'),
         $repo = $('#repo')
 
-    $add_repo.on('click', function () {
+    $add_repo.on('click', function (event) {
+
+        event.preventDefault();
+
         const repositoryValue = $repository.val()
 
         if (repositoryValue === '') {
@@ -18,7 +21,6 @@
         const tag = `<div id="repo" class="repo-link">${result}</div>`
 
         $repo_link.append(tag).on('click', 'div', function () {
-            console.log($(this).text())
             this.remove()
         })
 
