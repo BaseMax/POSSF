@@ -2,6 +2,8 @@
 
 Persian Open Source Software Festival
 
+![Persian Open Source Software Festival](screen1.png)
+
 ## Purpose of POSSF
 
 - Help free software
@@ -15,7 +17,13 @@ Persian Open Source Software Festival
 
 Please mail me at my gmail address (maxbasecode)
 
-![Persian Open Source Software Festival](screen1.png)
+## Date
+
+13 November 2020, or 20 November 2020
+
+Group are coordinating. Date can be changed.
+
+---------
 
 ![Persian Open Source Software Festival](screen2.png)
 
