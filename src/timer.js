@@ -5,7 +5,7 @@
         $hours = $('#hours_time'),
         $day = $('#day_time');
 
-        const date_future = new Date(2020, 11, 20);
+        const date_future = new Date(2020, 11, 1);
 
     setInterval(function () {
         const date_now = new Date();
