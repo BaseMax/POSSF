@@ -25,12 +25,10 @@ Please mail me at my gmail address (maxbasecode)
 
 ## Date of POSSF event
 
-20 November 2020
+27 November 2020
 
 Group are coordinating, Date can be changed.
 
 ---------
-
-![Persian Open Source Software Festival](screen2.png)
 
 ![Persian Open Source Software Festival](screen3.png)
