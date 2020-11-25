@@ -25,7 +25,7 @@ Please mail me at my gmail address (maxbasecode)
 
 ## Date of POSSF event
 
-27 November 2020
+Planning...
 
 Group are coordinating, Date can be changed.
 
