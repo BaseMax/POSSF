@@ -2,6 +2,8 @@
 
 Persian Open Source Software Festival
 
+Deprecated: new POSS-Festival website host at [POSSFest](https://possf.ir)
+
 ## Event type
 
 Open-Source Festival similar to **Hacktoberfest** but specifically for Persian users of the world.
