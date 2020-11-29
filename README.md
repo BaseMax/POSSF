@@ -2,7 +2,7 @@
 
 Persian Open Source Software Festival
 
-Deprecated: new POSS-Festival website host at [POSSFest](https://possf.ir)
+**Deprecated:** new POSS-Festival website host at [POSSFest](https://possf.ir)
 
 ## Event type
 
