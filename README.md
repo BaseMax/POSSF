@@ -2,7 +2,7 @@
 
 Persian Open Source Software Festival
 
-**Deprecated:** new POSS-Festival website host at [POSSFest](https://possf.ir) (possf.ir)
+**Deprecated:** https://basemax.github.io/POSSF/, New POSS-Festival website host at [POSSFest](https://possf.ir) (possf.ir)
 
 ## Event type
 
